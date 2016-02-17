@@ -1,1 +1,1 @@
-# simple-browsersync-webpack-plugin
+# browsersync-reloader-webpack-plugin
