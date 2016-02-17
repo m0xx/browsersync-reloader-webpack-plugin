@@ -1,4 +1,4 @@
-function SimpleBrowserSyncPlugin(options) {
+function BrowserSyncReloaderPlugin(options) {
     options = options || {};
 
     if(!options.browserSync)
@@ -7,7 +7,7 @@ function SimpleBrowserSyncPlugin(options) {
     this.browserSync = options.browserSync;
 }
 
-SimpleBrowserSyncPlugin.prototype.apply = function(compiler) {
+BrowserSyncReloaderPlugin.prototype.apply = function(compiler) {
     var self = this;
 
     compiler.plugin('done', function (stats) {
@@ -15,4 +15,4 @@ SimpleBrowserSyncPlugin.prototype.apply = function(compiler) {
     })
 }
 
-module.exports = SimpleBrowserSyncPlugin;
+module.exports = BrowserSyncReloaderPlugin;
