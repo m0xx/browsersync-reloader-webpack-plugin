@@ -12,6 +12,7 @@
   },
   "keywords": [
     "webpack",
+    "plugin",
     "browsersync"
   ],
   "author": "Maxime Morin",
