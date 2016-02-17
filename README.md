@@ -1,8 +1,10 @@
 # browsersync-reloader-webpack-plugin
 
+## Description
+
 Reload any instance of `BrowserSync` with your `Webpack` configuration after every compilation. It's also useful to reload `Browsersync` from another place... i.e. from gulp file when stylesheets change.
 
-# Usage
+## Usage
 
 ```
 var BrowserSyncReloadPlugin = require('browsersync-reloader-webpack-plugin');

@@ -1,7 +1,7 @@
 {
   "name": "browsersync-reloader-webpack-plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "Reload BrowserSync on Webpack compilation",
   "main": "index.js",
   "peerDependencies": {
     "browser-sync": "^2.x.x",

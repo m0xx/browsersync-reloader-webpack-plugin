@@ -7,7 +7,7 @@ function BrowserSyncReloaderPlugin(options) {
     this.browserSync = options.browserSync;
 }
 
-BrowserSyncReloaderPlugin.prototype.apply = function(compiler) {
+BrowserSyncReloaderPluginnpm .prototype.apply = function(compiler) {
     var self = this;
 
     compiler.plugin('done', function (stats) {
